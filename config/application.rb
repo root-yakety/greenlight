@@ -126,21 +126,25 @@ module Greenlight
     config.maintenance_mode = ENV["MAINTENANCE_MODE"] == "true"
 
     config.report_issue_url = ENV["REPORT_ISSUE_URL"]
-    config.help_url = ENV["HELP_URL"].nil? ? "https://docs.bigbluebutton.org/greenlight/gl-overview.html" : ENV["HELP_URL"]
-
-    # DEFAULTS
+    #config.help_url = ENV["HELP_URL"].nil? ? "https://docs.bigbluebutton.org/greenlight/gl-overview.html" : ENV["HELP_URL"]
+    config.help_url = ENV["HELP_URL"].nil? ? "https://yakety.net/support" : ENV["HELP_URL"]
+    
+# DEFAULTS
 
     # Default branding image if the user does not specify one
-    config.branding_image_default = "https://raw.githubusercontent.com/bigbluebutton/greenlight/master/app/assets/images/logo_with_text.png"
-
+    #config.branding_image_default = "https://raw.githubusercontent.com/bigbluebutton/greenlight/master/app/assets/images/logo_with_text.png"
+    config.branding_image_default = "https://raw.githubusercontent.com/root-yakety/greenlight/v2-tourvest/app/assets/images/logo_with_text.png"
     # Default primary color if the user does not specify one
-    config.primary_color_default = "#467fcf"
+    #config.primary_color_default = "#467fcf"
+    config.primary_color_default = "#ffce45"
 
     # Default primary color lighten if the user does not specify one
-    config.primary_color_lighten_default = "#e8eff9"
+    #config.primary_color_lighten_default = "#e8eff9"
+    config.primary_color_lighten_default = "#ffd76a"
 
     # Default primary color darken if the user does not specify one
-    config.primary_color_darken_default = "#316cbe"
+    #config.primary_color_darken_default = "#316cbe"
+    config.primary_color_darken_default = "#e5b93e"
 
     # Default registration method if the user does not specify one
     config.registration_method_default = if ENV["DEFAULT_REGISTRATION"] == "invite"
@@ -152,7 +156,7 @@ module Greenlight
     end
 
     # Default limit on number of rooms users can create
-    config.number_of_rooms_default = 15
+    config.number_of_rooms_default = 5
 
     # Allow users to share rooms by default
     config.shared_access_default = "true"
