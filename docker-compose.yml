@@ -3,8 +3,8 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-    image: bigbluebutton/greenlight:v2
-    container_name: greenlight-v2
+    image: greenlight_tourvest_colab:release-v1
+    container_name: greenligh_tc_v1
     env_file: .env
     restart: unless-stopped
     ports:
