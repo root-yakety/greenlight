@@ -36,7 +36,7 @@ en:
         enabled: Enabled
         info: Only allow authenticated users to join a room
         title: Require Authentication for Rooms
-        user-info: You must sign in to Tourvest Virtual Rooms to join this room
+        user-info: You must sign in to Yakety Virtual Rooms to join this room
       branding:
         change: Change Image
         info: Change the branding image that appears in the top left corner
@@ -95,7 +95,7 @@ en:
       shared_access:
         info: Setting to disabled will remove the button from the Room options dropdown, preventing users from sharing rooms
         title: Allow Users to Share Rooms
-      subtitle: Customize Yakety
+      subtitle: Customize Yakety Virtual Rooms
       title: Site Settings
     flash:
       approved: User has been successfully approved.
@@ -143,13 +143,13 @@ en:
     room_configuration:
       title: Room Configuration
       mute:
-        info: Automatically mutes the user when they join the Tourvest meeting
+        info: Automatically mutes the user when they join the Yakety Virtual Rooms meeting
       require_moderator:
-        info: Prompts the moderator of the Tourvest meeting when a user tries to join. If the user is approved, they will be able to join the meeting.
+        info: Prompts the moderator of the Yakety Virtual Rooms meeting when a user tries to join. If the user is approved, they will be able to join the meeting.
       allow_any:
         info: Allows any user to start the meeting at any time. By default, only the room owner can start the meeting.
       all_moderator:
-        info: Gives all users moderator privileges in Tourvest when they join the meeting.
+        info: Gives all users moderator privileges in Yakety Virtual Rooms when they join the meeting.
       options:
         disabled: Disabled
         enabled: Always Enabled
@@ -192,7 +192,7 @@ en:
         username: Username
       title: Manage Users
   add_to_google_calendar: "Add to Google Calendar"
-  bigbluebutton: Tourvest Virtual Rooms
+  bigbluebutton: Yakety Virtual Rooms
   bigbluebutton_exception: Oops, there was an error when starting the meeting!
   cancel: Cancel
   cookies:
@@ -269,7 +269,7 @@ en:
     email: Email
     submit: Submit
   go_back: Go back
-  greenlight: Tourvest Virtual Rooms
+  greenlight: Yakety Virtual Rooms
   header:
     all_recordings: All Recordings
     dropdown:
@@ -293,11 +293,11 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "Tourvest Virtual Rooms powered by Yakety. You can create your own rooms to host sessions, or join others using a short and convenient link. "
-    welcome: Welcome to Tourvest Virtual Rooms.
-    video: Watch our tutorial on Yakety 
+    about: "Yakety Virtual Rooms powered by AWS. You can create your own rooms to host sessions, or join others using a short and convenient link. "
+    welcome: Welcome to Yakety Virtual Rooms.
+    video: Watch our tutorial on Yakety Home Page. 
     upgrade: Show me how to upgrade to 2.0!
-    version: We've released a new version of Yakety, but your database isn't compatible.
+    version: We've released a new version of Yakety Virtual Rooms, but your database isn't compatible.
   language_default: Default (browser language)
   ldap_error: Unable to connect to the LDAP server. Please check your LDAP configuration in the env file and ensure your server is running.
   login: Sign in
@@ -309,10 +309,10 @@ en:
         signin: To access your personal rooms, click the button below and sign in.
         signin_link: Sign In
         signup:
-          info: A new user has signed up to use Tourvest Virtual Rooms.
-          more-info: To allow this user to access Tourvest Virtual Rooms you must approve their account in organization settings.
+          info: A new user has signed up to use Yakety Virtual Rooms.
+          more-info: To allow this user to access Yakety Virtual Rooms you must approve their account in organization settings.
           admins_link: Visit the Organization Page
-          subject: New Tourvest User Sign Up
+          subject: New Yakety User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
         subject: Account Approved
         username: Your username is %{email}.
@@ -326,11 +326,11 @@ en:
         signup_info: To signup using your email, click the button below and follow the steps.
         signup_link: Sign Up
         signup:
-          info: A user that was invited has signed up to use Tourvest Virtual Rooms.
+          info: A user that was invited has signed up to use Yakety Virtual Rooms.
           admins_link: Visit the Organization Page
-          subject: New Tourvest Virtual Rooms User Sign Up
+          subject: New Yakety Virtual Rooms User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
-        subject: Invitation to join Tourvest Virtual Rooms
+        subject: Invitation to join Yakety Virtual Rooms.
         username: Your username is %{email}.
       password_reset:
         title: 'Password reset'
@@ -346,7 +346,7 @@ en:
         subtitle: "%{role} Rights Granted"
       verify_email:
         welcome: Welcome to your personal space, %{name}!
-        success: Leveraging Yakety, you can create your own rooms to host sessions and collaborate with others.
+        success: Leveraging Yakety Virtual Rooms, you can create your own rooms to host sessions and collaborate with others.
         username: Your username is %{email}.
         verify: To verify your account, just click the button below.
         verify_text: 'To verify your account, just follow this link: %{url}'
