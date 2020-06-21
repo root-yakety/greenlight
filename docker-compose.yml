@@ -3,8 +3,8 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-    image: img_angus_prod:release-v1 
-    container_name: cnt_angus_prod-v1
+    image: root-yakety/greenlight:v2.1
+    container_name: greenligh-v2.1
     env_file: .env
     restart: unless-stopped
     ports:
