@@ -3,8 +3,8 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-    image: root-yakety/greenlight:v2.1
-    container_name: greenligh-v2.1
+    image: root-yakety/greenlight:release-v2.4
+    container_name: greenlight-v2.4
     env_file: .env
     restart: unless-stopped
     ports:
